@@ -1,0 +1,100 @@
+body {
+    background-image: url("file:///C:/Users/hirsi/Downloads/sunset-7628289.jpg");
+    background-size: cover;
+    margin: 0; /* Added to remove default margin */
+}
+
+.togr {
+    padding: 12px;
+    margin: 14px;
+    text-align: center;
+    /* Removed justify-content, align-items, and position as they are not relevant for this element */
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 21px;
+
+}
+
+nav ul {
+    /* Added to remove default margin and padding from ul element */
+    list-style-type: none; /* Removed bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline; /* Changed from float: left to display: inline */
+}
+
+li a {
+    display: inline-block; /* Changed from display: block to display: inline-block */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+    border-radius: 21px;
+}
+
+.active {
+    background-color: #04AA6D;
+    border-radius: 21px;
+}
+
+.active:hover{
+    background-color: #111;
+}
+
+
+
+.headd{
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    position: absolute;
+    top: 999px;
+    right: 884px;
+    text-align: center;
+}
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+
+
+
+.conterner{
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+
+svg#flower-frame{
+    height: 90vh;
+    width: 100%;
+}
